@@ -5,7 +5,7 @@ items = [
     ['Cheese', 180],
     ['Yoghurt', 60]
 ]
-cart = []  # Use a list to store cart items
+cart = [] 
 
 while True:
     print("\nWhat do you want to do?")
@@ -37,7 +37,7 @@ while True:
                 print(f"{item_name} added to cart.")
                 break
         else:
-            print("Item isgir  not found.")
+            print("Item is not found.")
 
     elif choice == 3:
         item_name = input("Which item to be updated: ")
