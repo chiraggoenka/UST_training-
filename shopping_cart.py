@@ -37,7 +37,7 @@ while True:
                 print(f"{item_name} added to cart.")
                 break
         else:
-            print("Item not found.")
+            print("Item isgir  not found.")
 
     elif choice == 3:
         item_name = input("Which item to be updated: ")
@@ -45,7 +45,7 @@ while True:
             if cart_item[0] == item_name:
                 quantity = int(input("Enter the quantity to be updated: "))
                 cart_item[1] = quantity
-                print(f"{item_name} updated in cart.")
+                print(f"{item_name} updated in the cart.")
                 break
         else:
             print("Item not in cart.")
@@ -71,9 +71,9 @@ while True:
         print(f"Total Amount of Bill: {total_amount}")
 
     elif choice == 6:
-        print("Exiting...")
+        print('thank you for shopping')
         break
 
     else:
-        print("Invalid choice. Please try again.")
+        print("Invalid choice. try again.")
 
